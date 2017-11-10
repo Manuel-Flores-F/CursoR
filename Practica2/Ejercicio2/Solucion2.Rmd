@@ -1,0 +1,30 @@
+Nombre : Manuel Flores 20154551A
+Respuesta2 : Definiciones
+
+VECTORIZACION
+Al utilizar funciones basadas en lenguaje c ...nos hemos acostumbrado a usar el for para crear arreglos de elementos,esto se puede sintetizar en R pues podemos crear un arreglo definiendo un vector...y a partir de ahi operar 
+A esto definimos cono una funcion que puede ser vectorizada
+
+
+  Arreglo de impares hasta el 10
+ 
+  v<-1:4
+  for(i in 1:4){
+   v[i]<-2*v[i]+1
+  }
+  
+ 
+  v<-1:4
+  v<-2*v+1
+  
+  
+RECICLADO
+Cuando una funcion obedece  la regla de reciclaje significa que no es necesario utilizar un arreglo que extenso que siga un patron.
+Por ejemplo ...si nosotros analizamos una funcion la cual hace que multipliquen vectores de 10 elementos cada uno,pero el segundo sigue un patron de repeticion de los primeros 5 elementos,entonces se puede omitir todo ese arreglo y reducirlo al patron original.
+ 
+ Ejemplo:
+ 
+ x<-1:2
+ y<-c(10,20)
+ x*y
+ [1] 10 22 12 26 14 30 16 34 18 38 20 
