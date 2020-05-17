@@ -1,1 +1,2 @@
 # CursoR
+## Curso: Estadística
